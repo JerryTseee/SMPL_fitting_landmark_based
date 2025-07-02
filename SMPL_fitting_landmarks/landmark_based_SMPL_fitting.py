@@ -89,7 +89,7 @@ for i in range(320):
     model_landmarks = vertices[smpl_indices]
     loss = torch.mean((model_landmarks - char_pts_torch) ** 2)
     # add regularization term to loss
-    reg = 0.0001 * torch.mean(shape ** 2) + 0.001 * torch.mean(pose ** 2)
+    reg = 0.00008 * torch.mean(shape ** 2) + 0.001 * torch.mean(pose ** 2)
     loss += reg
 
     optimizer.zero_grad()
