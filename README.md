@@ -7,6 +7,7 @@
    
 (If you want, you can decide your own markers, but you also need to change the markers for the SMPLX model)
 ### Some Results
-~ Adjust the parameters by yourself, eg.loops, regularization, ...
+~ Adjust the parameters by yourself, eg.loops, regularization, ...   
+
 ![image](https://github.com/user-attachments/assets/a033f09a-028f-4456-a4a7-20cfd3a69da0)
 ![image](https://github.com/user-attachments/assets/0788bcfe-2717-4cf9-ab36-204d3557078e)
